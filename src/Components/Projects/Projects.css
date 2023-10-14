@@ -1,0 +1,138 @@
+.btn-main {
+  width: 200px;
+  background-color: rgba(36, 37, 46, 1);
+  color: #eee;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: 0.5;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.btn-main:hover {
+  opacity: 1;
+}
+.light .btn-main{
+ 
+  background-color: black;
+
+}
+.active {
+  opacity: 1;
+  border: 0.5px solid var(--blue);
+}
+.light .active{
+  opacity: 1;
+  border: none;
+}
+
+.border-project {
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  cursor: pointer;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.light .border-project{
+  border:1px solid rgba(0, 0, 0, 0.438);
+ 
+}
+.light .border-project:hover{
+  rotate: 1deg;
+  scale: 1.03;
+  border:1px solid rgba(0, 0, 0, 0.438);
+}
+.border-project img{
+  border-radius: 10px 10px 0 0 ;
+  -webkit-border-radius: 10px 10px 0 0 ;
+  -moz-border-radius: 10px 10px 0 0 ;
+  -ms-border-radius: 10px 10px 0 0 ;
+  -o-border-radius: 10px 10px 0 0 ;
+}
+
+.border-project:hover {
+  border: 1px solid var(--blue);
+  rotate: 1deg;
+  scale: 1.03;
+
+}
+
+.img-project {
+  height: 200px;
+}
+.title-project {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 10px;
+}
+.text-project {
+  color: var(--subTitle);
+  margin: 10px;
+  letter-spacing: 1px;
+  font-size: 0.87em;
+}
+.icon-project {
+  font-size: 1.3em;
+  color: var(--subTitle);
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+ }
+ .icon-project:hover{
+    color: #EEE;
+    scale: 1.4;
+ }
+ .light .icon-project:hover{
+  color: #000000;
+    scale: 1.4;
+ }
+ .show{
+  color: var(--blue);
+ }
+ 
+ .show:hover{
+  color: rgb(69, 179, 253);
+  scale: 1.2;
+ }
+ .project-me{
+  min-height: 400px !important;
+  animation: move 0.5s;
+  -webkit-animation: move 0.5s;
+}
+@media only screen and (max-width: 770px) {
+  .btn-main1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btn-main {
+    width: 45%;
+  }
+}
+@keyframes move {
+  0%  {scale:0 }
+  40%  {scale:1.01 }
+  50%  {scale:1.1 }
+  60%  {scale:1.2 }
+  100%  {scale:1 }
+}

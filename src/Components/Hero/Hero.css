@@ -1,0 +1,56 @@
+.img-hero{
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    color: var(--title);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.subtitle{
+    color: var(--subTitle);
+    
+}
+.icon-hero i {
+ font-size: 1.3em;
+ color: var(--subTitle);
+ transition: .2s;
+ -webkit-transition: .2s;
+ -moz-transition: .2s;
+ -ms-transition: .2s;
+ -o-transition: .2s;
+}
+.icon-hero i:hover{
+   color: #EEE;
+   scale: 1.4;
+}
+.light .icon-hero i:hover{
+   color: #050505;
+   scale: 1.4;
+}
+.developre{
+   display: none;
+ }
+@media only screen and (max-width: 770px) {
+ .title{
+    font-size: 1.5rem;
+    padding: 15px 0 0 0;
+ }
+ .developre{
+   display: flex;
+ }
+ .developer-wep{
+   display: none;
+ }
+ .mobile-hero{
+    text-align: center;
+    border: 1px solid var(--subTitle) ;
+ }
+ .subtitle{
+    font-size: .8em;
+    letter-spacing: 1px;
+    padding: 10px 0;
+ }
+    
+  }
