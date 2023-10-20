@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="mobile-hero col-md-8  py-4 ">
             <img src={img} className=" img-hero mb-2" />
             {/* <i className="fa-solid fa-certificate" style={{color: '#11bde8'}}></i> */}
-            <h1 className=" title mb-2">SoftWare Engineering</h1>
+            <h1 className=" title mb-2">SoftWare Engineer</h1>
             <p className="subtitle mb-4">
               I'm Ziad Ahmed, a Software JavaScript Developer who can help your
               company to achieve more success and progress in the Web
